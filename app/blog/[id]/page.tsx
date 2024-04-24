@@ -9,9 +9,13 @@ import {
 } from 'react-icons/ai';
 
 const getData = async (id: string) => {
-  const res = await fetch(`http://localhost:3000/api/post/${id}`, {
-    cache: 'no-store',
-  });
+  const res = await fetch(
+    // `http://localhost:3000/api/post/${id}`,
+    `https://xplore-travel-blog.vercel.app/api/post/${id}`,
+    {
+      cache: 'no-store',
+    }
+  );
 
   if (!res.ok) {
     throw new Error('Failed to fetch post');
