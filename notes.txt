@@ -1,0 +1,3 @@
+PACKAGES INSTALLED FOR EDGESTORE FILE UPLOADS
+    •npm i @edgestore/server @edgestore/react zod
+    •npm i tailwind-merge react-dropzone lucide-react
